@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    justify-content: center;
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/um-fundo-preto-e-cinza-com-notas-de-musica-e-um-fundo-preto_1013369-50140.jpg?w=1060);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 15px;
+    vertical-align: auto;
+}
+h2{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+input {
+    color: black;
+    width: fit-content; 
+    padding: 12px 15px; 
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px; 
+    box-sizing: border-box; 
+    line-height: 1.5;
+    outline: none;
+}
+.letra{
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    width: 230px;
+    height: 300px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: medium;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
